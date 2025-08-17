@@ -14,4 +14,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MaintenanceChronicle.Auth.Data\MaintenanceChronicle.Auth.Data.csproj" />
+    <ProjectReference Include="..\MaintenanceChronicle.Auth.Infrastructure\MaintenanceChronicle.Auth.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
